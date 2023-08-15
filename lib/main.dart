@@ -41,7 +41,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   void initState() {
     super.initState();
-    ros = Ros(url: "ws://192.168.0.18:9090");
+    ros = Ros(url: "ws://your_wsl_address:9090");
     ultraconic_front_topic = Topic(
       ros: ros,
       name: "ultrasonic_front_driver",
